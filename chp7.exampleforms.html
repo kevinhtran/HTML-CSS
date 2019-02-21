@@ -3,68 +3,59 @@
     <title>Forms</title>
   </head>
   <body>
-    <form>
-      <fieldset>
-        <legend>
-          Your Details:
-        </legend>
+    <img src="images/Narutologo.gif" name="narutologo"/>
+  <fieldset>
+    <legend>
+      Your details:
+    </legend>
+    <label>
+      Name:
+      <input type="text" name="name" size="30" maxlength="100">
+    </label>
+    <br/>
+    <label>
+      Email:
+      <input type="email" name="email" size="30" maxlength="100">
+    </label>
+  </fieldset>
+  <br/>
+  <fieldset>
+    <legend>
+      Your Review:
+    </legend>
+    <p>
+      <label for="hear-about">
+        How did you hear about us?
+      </label>
+      <select name="referrer" id="hear-about">
+        <option value="google">Google</option>
+        <option value="friend">Friend</option>
+        <option value="family">Family</option>
+      </select>
+    </p>
+    <p>
+      <label>Would you visit again?</label>
+      <input type="radio" name="yes"/>
+      Yes
+      <input type="radio" name="no"/>
+      No
+      <input type="radio" name="maybe"/>
+      Maybe
+      <p>
+        <label for="comments">
+          Comments:
+        </label>
+        <br/>
+        <textarea rows="6" cols="50">
+        </textarea>
+        <br/>
         <label>
-          Name:
-          <input type="text" name="name" size="30" maxlength="100">
+          <input type="checkbox" name="email-sign-up" checked="checked">
+          Sign up for email updates!
         </label>
-        <br />
-        <label>
-          Email:
-          <input type="email" name="email" size="30" maxlength="100">
-        </label>
-        <br />
-      </fieldset>
-      <fieldset>
-        <legend>
-          Your Review:
-        </legend>
-        <p>
-        <label for="hear-about">
-         How did you hear about us?
-        </label>
-        <select name="referrer" id="hear-about">
-          <option value="google">Google</option>
-          <option value="friend">Friend</option>
-          <option value="advert">Advert</option>
-          <option value="other">Other</option>
-        </select>
-        </p>
-        <p>
-          Would you visit again?
-        <br />
-        <label>
-          <input type="radio" name="rating" value="yes" />
-          yes
-        </label>
-        <label>
-          <input type="radio" name="rating" value="no" />
-          no
-        </label>
-        <label>
-          <input type="radio" name="rating" value="maybe" />
-          maybe
-        </label>
-        </p>
-        <p>
-          <label for="comments">
-            Comments:
-          </label>
-          <br />
-          <textarea rows="4" cols="40" id="comments">
-          </textarea>
-        </p>
-        <label>
-          <input type="checkbox" name="subscribe" checked="checked" />
-          Sign me up for email updates
-        </label>
-        <br />
-        <input type="submit" value="Submit review" />
-      </fieldset>
-    </form>
+        <br/>
+        <input type="submit" value="Submit Review"/>
+      </p>
+  </fieldset>
   </body>
 </html>
