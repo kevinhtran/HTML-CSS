@@ -1,0 +1,17 @@
+/* color name */
+h1 {
+  color: DarkCyan;
+  background-color: Beige;
+}
+
+/* hex code */
+h2 {
+  color: #ee3e80;
+  background-color: #F5F5DC;
+}
+
+/* rgb value */
+p {
+  color: rgb(100,100,90);
+  background-color: rgb(255,255,255);
+}
