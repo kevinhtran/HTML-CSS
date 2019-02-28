@@ -13,5 +13,5 @@ h2 {
 /* rgb value */
 p {
   color: rgb(100,100,90);
-  background-color: rgb(255,255,255);
+  background-color: rgba(255,255,255,1.0);
 }
