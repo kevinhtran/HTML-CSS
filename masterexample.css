@@ -1,0 +1,43 @@
+ * {
+  background: rgb(182, 182, 182);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  font-size: 1em;
+  }
+
+  img {
+    width:340px;
+    height:auto;
+  }
+
+  .fieldset-auto-width {
+    display: inline-block;
+  }
+
+  h1.one {
+    background-color: #eeeeee;
+    color:#666666;
+    text-shadow: 1px 1px 0px #000000;
+  }
+  h1.two {
+    background-color: #dddddd;
+    color:#666666;
+    text-shadow: 1px 1px 3px #666666;
+  }
+  h1.three {
+    background-color: #cccccc;
+    color:#ffffff;
+    text-shadow: 2px 2px 7px #111111;
+  }
+
+  div.centering-header {
+    text-align: center;
+  }
+
+  div.centering-about-me {
+    text-align: center;
+  }
+
+  div.centering-links {
+    text-align:center;
+  }
