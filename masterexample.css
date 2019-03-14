@@ -41,3 +41,10 @@
   div.centering-links {
     text-align:center;
   }
+
+  p.intro:first-letter {
+    font-size: 300%;
+  }
+  p.intro:first-line {
+    font-weight: bold;
+  }
