@@ -6,23 +6,32 @@
     list-style-type: lower-roman;
   }
   ul {
+    width: 250px;
     list-style-image: url("images/leaf.png");
   }
   li {
     margin: 10px 0px 0px 0px;
+    margin: 10px;
   }
+  ul.illuminations {
+    list-style-position: outsite;
+  }
+  ul.season {
+    list-style-position: inside;
+  }
+
   </style>
 </head>
 <h1>The Complete Poems</h1>
 <h2>Emily Dickinson</h2>
-<ol>
+<ol class="illuminations">
   <li>Life</li>
   <li>Nature</li>
   <li>Love</li>
   <li>Time and Eternity</li>
   <li>The Single Hound</li>
 </ol>
-<ul>
+<ul class="season">
   <li>One</li>
   <li>Two</li>
   <li>Three</li>
