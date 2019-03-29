@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Table Properties Using CSS</title>
+    <style type="text/css" rel="stylesheet">
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      color: #111111;}
+    table {
+      width: 600px;}
+    th, td {
+      padding: 7px 10px 10px 10px;}
+    th {
+      text-transform: uppercase;
+      letter-spacing; 0.1em;
+      font-size: 90%;
+      border-bottom: 2px solid #111111;
+      border-top: 1px solid #999;
+      text-align: left;}
+    tr.even {
+      background-color: #efefef;}
+    tr:hover {
+      background-color: #c3e6e5;}
+    .money {
+      text-align: right;}
+    </style>
+  </head>
+  <body>
+    <h1>First Edition Auctions</h1>
+    <table>
+      <tr>
+        <th>Author</th>
+        <th>Title</th>
+        <th class="money">Reserve Price</th>
+        <th class="money">Current Bid</th>
+      </tr>
+      <tr>
+        <td>E.E. Cummings</td>
+        <td>Tulips</td>
+        <td class="money">$2,000.00</td>
+        <td class="money">$2,500.00</td>
+      </tr>
+      <tr class="even">
+        <td>Charles d'Orleans</td>
+        <td>Poemes</td>
+        <td class="money">$1,250.00</td>
+        <td class="money">$8,500.00</td>
+      </tr>
+      <tr>
+        <td>Kevin Tran</td>
+        <td>Get rich</td>
+        <td class="money">$10,000.00</td>
+        <td class="money">$100,000.00</td>
+      </tr>
+      <tr class="even">
+        <td>Lynn Huynh</td>
+        <td>How to be Pretty</td>
+        <td class="money">$100,000.00</td>
+        <td class="money">$1,000,000.00</td>
+      </tr>
+
+    </table>
+  </body>
+</html>
